@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Registration Page</title>	
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	
+	<body>
+
+		<div class="form-box1">
+			<h2>CREATE AN ACCOUNT</h2>
+			<div class="social-box">
+                <img src="facebook.png" alt="facebook icon">
+                <img src="twitter.png" alt="twitter icon">
+                <img src="googleplus.png" alt="googleplus icon">
+            </div>
+			
+			<form id="singup" class="input-group" action="index.html">
+				<input type="text" class="input-field1" placeholder="Enter UserName" id="username" required>
+				<input type="email" class="input-field1" placeholder="Enter Email" id="email1" required>
+				<input type="password" class="input-field1" placeholder="Enter password" id="password1" required>
+				<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+				<button type="submit" class="submit-btn" onclick="store()">Sign Up</button>
+			</form>
+			<div class="note">
+				<p><b>NOTE :</b></br> Password must contain each one of these : </p>
+				<ul>
+					<li>Capital Letter.</li>
+					<li>Small Letter.</li>
+					<li>Special Character.</li>
+					<li>Number.</li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
